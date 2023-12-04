@@ -5,6 +5,7 @@ from colorama import Fore, Back, Style
 import os
 from sys import platform
 import base64
+
 def clear():
 	if platform == "linux" or platform == "linux2":
 		os.system("clear")
@@ -431,4 +432,4 @@ bot.polling()
 		""")
 	f.close()
 	input("Файл tiktok.py сохранен! Нажмите Enter")
-#Developer: @lamer112311
+#Developer: @rmkvlly
