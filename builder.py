@@ -86,6 +86,9 @@ choice = int(choice)
 
 
 
+
+
+
 if choice == 1:
 	f = open('Instagram.py', 'w+', encoding='utf-8')
 	f.write(f"""
